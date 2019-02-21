@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<title>Exercitiu 2</title>
+
+	<link rel="stylesheet" href="06_credit.css" />
+
+</head>
+
+<body>
+
+<div id="oferta">
+	<form method="post" action="08_banci.php">
+	<p>Afiseaza bancile!</p>
+	<p><input type="submit" value="Afisare"/></p>
+	</form>
+
+	<form method="post" action="09_banci_dobanzi.php">
+	<p>Vizualizeaza ofertele bancare!</p>
+	<p><input type="submit" value="Vizualizeaza"/></p>
+	</form>
+</div>
+
+<div id="guest">
+	<form method="post" action="03_multumim.php">
+		
+	<p class="topofdiv">Aplica!</p>
+
+	<p>
+	Prenume:<br />
+	<input type="text" name="prenume" size="30" />
+	</p>
+
+	<p>
+	Nume:<br />
+	<input type="text" name="nume" size="30" />
+	</p>
+
+	<p>
+	Contact:
+	<input type="radio" name="contact" value="Tel" checked="checked" /> Tel
+	<input type="radio" name="contact" value="Email" /> Email <br />
+	<input type="text" name="telsauemail" size="50" />
+	</p>
+
+	<p>
+	Preferinte locatie:<br />
+	<select name="city" size="1">
+		<option value="-">-</option>
+		<option value="Cluj-Napoca">Cluj-Napoca</option>
+		<option value="Deva">Deva</option>
+		<option value="Krakow">Krakow</option>
+	</select>
+	</p>
+
+
+
+	</form>
+
+</div>
+
+<div id="calculator">
+
+	<form method="post" action="10_insertie_user.php">
+	<form method="post" action="03_multumim.php">
+	
+
+	<table>
+
+	<tr>
+		<td>Finantare</td>
+		<td><input type="text" name="finantare" size="11" /></td>
+	</tr>
+
+	<tr>
+		<td>Dobanda</td>
+		<td><input type="text" name="dobanda" size="11" /></td>
+	</tr>
+
+
+	</table>
+
+	<p><input type="submit" value="Calculeaza"/></p>
+
+	
+	</form>
+
+
+</div>
+
+</body>
+</html>
